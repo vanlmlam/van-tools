@@ -13,6 +13,18 @@ const TOOLS = [
       </svg>
     ),
   },
+  {
+    href: "/pomodoro",
+    title: "番茄鐘",
+    description: "25 分鐘專注、5 分鐘休息。完成四輪進入長休息，陪你專注做事。",
+    icon: (
+      <svg viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true">
+        <circle cx="12" cy="13" r="8" fill="none" strokeWidth="2" stroke="currentColor" />
+        <path d="M12 9v4l2.5 2.5" fill="none" strokeWidth="2" stroke="currentColor" />
+        <path d="M9 2h6" fill="none" strokeWidth="2" stroke="currentColor" />
+      </svg>
+    ),
+  },
 ];
 
 export default function Home() {

@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 const LINKS = [
   { href: "/", label: "首頁" },
   { href: "/wheel", label: "抽獎轉盤" },
+  { href: "/pomodoro", label: "番茄鐘" },
 ] as const;
 
 export default function Nav() {
