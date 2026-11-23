@@ -7,6 +7,7 @@ const LINKS = [
   { href: "/", label: "首頁" },
   { href: "/wheel", label: "抽獎轉盤" },
   { href: "/pomodoro", label: "番茄鐘" },
+  { href: "/fortune", label: "運籤" },
 ] as const;
 
 export default function Nav() {

@@ -25,6 +25,27 @@ const TOOLS = [
       </svg>
     ),
   },
+  {
+    href: "/fortune",
+    title: "運籤",
+    description: "搖一搖籤筒，隨機抽一支籤，大吉、大凶一目了然，看看今天的運勢。",
+    icon: (
+      <svg viewBox="0 0 24 24" className="h-6 w-6" aria-hidden="true">
+        <path
+          d="M7 20h10l-1-11H8L7 20Z"
+          fill="none"
+          strokeWidth="2"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10 9V4M14 9V3"
+          fill="none"
+          strokeWidth="2"
+          strokeLinecap="round"
+        />
+      </svg>
+    ),
+  },
 ];
 
 export default function Home() {

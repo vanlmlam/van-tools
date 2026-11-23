@@ -24,3 +24,41 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ── 運籤：籤筒搖晃與籤升起的動畫 ── */
+
+@keyframes fortune-jiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-2.2deg);
+  }
+  45% {
+    transform: rotate(2.2deg);
+  }
+  70% {
+    transform: rotate(-1.4deg);
+  }
+}
+
+@keyframes fortune-rise {
+  0% {
+    transform: translateX(calc(-50% + var(--tx))) rotate(var(--rot)) translateY(0);
+  }
+  55% {
+    transform: translateX(calc(-50% + var(--tx))) rotate(-4deg)
+      translateY(calc(var(--rise) * 1.18));
+  }
+  100% {
+    transform: translateX(calc(-50% + var(--tx))) rotate(0deg)
+      translateY(var(--rise));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fortune-animated {
+    animation: none !important;
+  }
+}
