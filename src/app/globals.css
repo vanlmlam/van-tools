@@ -25,6 +25,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ── Landing page 的裝飾 ── */
+
+/* 細點網格 */
+.dot-grid {
+  background-image: radial-gradient(rgba(24, 24, 27, 0.16) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+
+/* 網格往外淡出，避免有明顯的邊界 */
+.dot-mask {
+  -webkit-mask-image: radial-gradient(ellipse 80% 55% at 50% 22%, #000 35%, transparent 100%);
+  mask-image: radial-gradient(ellipse 80% 55% at 50% 22%, #000 35%, transparent 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .dot-grid {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  }
+}
+
 /* ── 運籤：籤筒搖晃與籤升起的動畫 ── */
 
 @keyframes fortune-jiggle {

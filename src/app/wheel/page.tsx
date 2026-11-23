@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import WheelTool from "./WheelTool";
 
 export const metadata: Metadata = {
-  title: "抽獎轉盤 | van-tools",
+  title: "抽獎轉盤",
   description: "輸入名單，轉動轉盤抽出中獎者。",
 };
 

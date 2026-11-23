@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import FortuneSticks from "./FortuneSticks";
 
 export const metadata: Metadata = {
-  title: "運籤 | van-tools",
+  title: "運籤",
   description: "搖一搖籤筒，隨機抽一支籤，看看今天的運勢。",
 };
 
