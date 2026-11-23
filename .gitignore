@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ===== AI agent / 工具產物 =====
+# Next.js 自動產生，不進版控
+AGENTS.md
